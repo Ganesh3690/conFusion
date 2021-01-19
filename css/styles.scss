@@ -68,9 +68,34 @@ body{
     }
 }
 
+.form-row1{
+    padding-left: 30%;
+    padding-top: 15px;
+}
+
 #carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal-header {
+    background:$background-dark;
+
+    .modal-title{
+        color:white;
+
+    }
+
+    .close{
+        color: green;
+    }
+    .close:hover{
+        color:white;
+    }
+}
+
+.modal-body{
+    background:#D1C4E9;
 }

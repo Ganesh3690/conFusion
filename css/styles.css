@@ -47,8 +47,24 @@ body {
       left: 0;
       min-height: 300px; }
 
+.form-row1 {
+  padding-left: 30%;
+  padding-top: 15px; }
+
 #carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background: #512DA8; }
+  .modal-header .modal-title {
+    color: white; }
+  .modal-header .close {
+    color: green; }
+  .modal-header .close:hover {
+    color: white; }
+
+.modal-body {
+  background: #D1C4E9; }
